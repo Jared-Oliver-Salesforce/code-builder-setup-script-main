@@ -1,0 +1,68 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+
+        {
+            "label": "Set Up Core Code Builder",
+            "type": "shell",
+            "command": "./scripts/shell/core/setup.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Update CLI",
+            "type": "shell",
+            "command": "./scripts/shell/cli/update.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Set Up Functions",
+            "type": "shell",
+            "command": "./scripts/shell/functions/setup.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Set Up Projects Directory",
+            "type": "shell",
+            "command": "./scripts/shell/projects/setup.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Install Shortcuts",
+            "type": "shell",
+            "command": "./scripts/shell/shortcuts/setup.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Set Up Themes And Fonts",
+            "type": "shell",
+            "command": "./scripts/shell/themes/setup.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+
+alias projectsreset="$HOME/.config/scripts/projects_reset.sh"
+alias cliupdate="$HOME/.config/scripts/cli_update.sh"

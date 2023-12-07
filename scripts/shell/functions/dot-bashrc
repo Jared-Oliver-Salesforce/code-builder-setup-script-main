@@ -1,0 +1,5 @@
+
+source $HOME/.config/ssh/jwt-functions/config.sh
+alias fnlogin="sf login functions jwt -u $JWTFNUSERNAME -f $JWTFNKEYPATH -i $JWTFNCLIENTID --json --set-default-dev-hub -a MyHub"
+alias fnstart="sf run function start"
+alias fninvoke="sf run function -l http://localhost:8080 -p"
