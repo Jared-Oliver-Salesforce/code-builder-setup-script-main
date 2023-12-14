@@ -1,4 +1,5 @@
-# Taken from Jonathan Jenkins https://git.soma.salesforce.com/jonathan-jenkins/code-builder-setup-script
+# Jonathan Jenkins Code Builder script, but make it dumb
+# https://git.soma.salesforce.com/jonathan-jenkins/code-builder-setup-script
 # Instructions
 
 Clone this repo into Code Builder
