@@ -25,29 +25,9 @@
             }
         },
         {
-            "label": "Set Up Functions",
-            "type": "shell",
-            "command": "./scripts/shell/functions/setup.sh",
-            "group": "build",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            }
-        },
-        {
             "label": "Set Up Projects Directory",
             "type": "shell",
             "command": "./scripts/shell/projects/setup.sh",
-            "group": "build",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            }
-        },
-        {
-            "label": "Install Shortcuts",
-            "type": "shell",
-            "command": "./scripts/shell/shortcuts/setup.sh",
             "group": "build",
             "presentation": {
                 "reveal": "always",
