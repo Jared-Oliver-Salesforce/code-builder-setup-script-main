@@ -7,7 +7,7 @@ mkdir $HOME/projects
 echo " "
 echo "add default project..."
 pushd $HOME/projects
-sf project generate -t empty -n default
+sf project generate -t empty -n code-builder-demo
 popd
 
 echo " "
