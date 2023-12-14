@@ -25,6 +25,16 @@
             }
         },
         {
+            "label": "Add Extensions",
+            "type": "shell",
+            "command": "./scripts/shell/extensions/setup.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
             "label": "Set Up Projects Directory",
             "type": "shell",
             "command": "./scripts/shell/projects/setup.sh",

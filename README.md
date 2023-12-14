@@ -30,3 +30,9 @@ Refresh your browser in order for your themes and fonts to take effect.
 Run by pressing ⇧⌘B and choosing "Set Up Projects Directory".<br/>
 
 Upon success, your Code Builder environment will have a "projects" directory that contains a empty Salesforce project called "default".
+
+## Optional Extensions Setup
+
+Run by pressing ⇧⌘B and choosing "Add Extensions".<br/>
+
+Upon success, your Code Builder environment will have a Vim extension added.
